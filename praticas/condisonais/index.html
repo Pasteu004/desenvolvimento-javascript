@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var idade = 18
+        console.log(
+            idade < 18 ? "menor de idade" :
+            idade === 18 ? "tem 18 anos":
+            "maior de idade"
+        )
+
+        var nota = 7
+        var faltas = 5
+
+        console.log(nota < 7 || faltas > 4 ? "Aluno reprovado!" : "Aluno aprovado!")
+
+        console.log(nota >= 7 && faltas <= 4 ? "Aluno aprovado!" : "Aluno reprovado!")
+
+        var nome = "Mestre dos Magos"
+
+        console.log(nome ? nome : "Nome não informado")
+
+        mensagem = nome ? nome : "Nome não informado"
+
+        console.log(mensagem)
+
+
+        console.log(
+            nome ? nome + " " + (
+                idade < 18 ? "" : idade
+            ) :
+            "Nome não informado!"
+        )
+    </script>
+</head>
+<body>
+    <h1>Título</h1>
+
+</body>
+</html>
